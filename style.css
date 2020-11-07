@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    max-width: 970px; /*надо сокращать до 900*/
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* .col-4-left {
+    width: 470px;
+    height: 493px;
+    padding: 0 1px;
+    
+} */
+
+.col-4 {
+    width: 50%;
+    
+    padding: 0 1px;
+    
+}
+
+#main {
+    padding-top: 100px;
+
+}
+
+.course-item-right {
+    background-color: #fff;
+    box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 493px;
+    width: 430px;
+}
+
+.course-item-left {
+    background-color: #fff;
+    box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 493px;
+    width: 470px;
+}
+
+.writeAnyWhere {
+    width: 378px;
+    height: 168px;
+    background-color: #CCE6E8;
+    margin-top: 16px;
+}
+
+.writeName {
+    width: 378px;
+    height: 32px;
+    background-color: #CCE6E8;
+    margin-top: 24px;
+}
+
+.Vid {
+    margin-top: 18px;  
+}
+
+.btn {
+    margin-top: 24px;
+} 
+
+.hidden {
+  display: none;
+}
+
+#header {
+    padding: 20px 0;
+    border-bottom: 2px solid #6e9cc3;
+    background-color: #83BCC3;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#buttonDesibled {
+    margin-right: auto;
+}
+
+.mrg-auto {
+    margin-right: auto;
+}
+
+h3 {
+    color: #315B60;
+    
+}
+
+body {
+    color: #212121;
+    font: 400 12px 'Roboto', sans-serif;
+}
+
+/* .zero {
+    width: 422;
+    height: 380;
+    background-color:aquamarine;
+} */
+
+tr {
+    background-color: #c4c4c4;
+    
+}
+
+table {
+    width: 422px;
+}
+
+table tr {
+    height: 38px;
+    
+}
+
+button1 {
+    width: 174px;
+    height: 32px;
+    background-color: #CCE6E8;
+}
+
+button2 {
+    width: 174px;
+    height: 32px;
+    background-color: #DCDCDC;
+}
+

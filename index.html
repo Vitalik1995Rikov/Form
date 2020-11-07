@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("style.css");
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="Frontend"></h1>
+            <nav class="header-nav">
+                <img src="Exit.jpg" alt="logo">
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="standart-section courses-wrap">
+        <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col-4">
+                    <div class="course-item-left">
+                        
+                            <div class="btn-group d-flex flex-row justify-content-center align-items-center">
+                                    
+    <img src="AddButton.jpg" width="28" height="28" onclick="add()"/>
+    <img src="RemoveButton.jpg" width="28" height="28" onclick="deleteRow()"/ id="buttonDesibled">
+    <img src="VisibleFilterButton.jpg" width="28" height="28" onclick="eye()"/>
+    <img src="UnvisibleFilterButton.jpg" width="28" height="28" onclick="notEye()"/>
+    
+    </div>
+    <div class="elem">
+        <div class="buttons">
+            <table id="dsTable">
+        <thead>
+            <!-- <div class ="zero"> -->
+            <tr>
+                
+                    <td><input type="checkbox" id="checkbox" onclick="checkedAll()"/></td>
+                    <td>Название</td>
+                    <td>Описание</td>
+                    <td>Значок (глаз)</td>
+                    
+            </tr>
+        <!-- </div> -->
+        </thead>
+        <tbody>
+            <tr>
+                <div class ="one">
+                <td><input type="checkbox" name="a1"></td>
+                <td>Элемент #1</td>
+                <td>Описание элемента #1</td>
+                <td><input type="radio" name="r1"></td>
+                </div>
+            </tr>
+            <tr>
+                <!-- <div class ="two"> -->
+                    <td><input type="checkbox" name="a2"></td>
+                    <td>Элемент #2</td>
+                    <td>Описание элемента #2</td>
+                    <td><input type="radio" name="r2"></td>
+                <!-- </div> -->
+            </tr>
+            <tr>
+                <!-- <div class ="three"> -->
+                <td><input type="checkbox" name="a3"></td>
+                <td>Элемент #3</td>
+                <td>Описание элемента #3</td>
+                <td><input type="radio" name="r3"></td>
+            <!-- </div> -->
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div> 
+</div> 
+</div>
+<div class="col-4">
+<div class="course-item-right">           
+<div class="element">
+    <h3>Редактирование элемента</h3>
+    <div class="writeName">
+        Название
+    </div>
+    <div class="writeAnyWhere">
+        Описание
+        
+    </div>
+
+
+
+    <div class = "Vid">
+        <input type="checkbox" name="a1">
+        Видимый
+    </div>
+    <div class="btn d-flex flex-row justify-content-center align-items-center">
+        <button1 class="changeOk mrg-auto">
+            Применить
+        </button1>
+        <button2 class="changeNot">
+            Отменить
+        </button2>
+    </div>
+</div>
+</div> 
+</div> 
+</div>
+</div>    
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
